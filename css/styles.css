@@ -1,0 +1,48 @@
+body {
+  background-color: var(--primary-background-color);
+}
+
+:root {
+  --primary-background-color: #161513;
+  --nav-background-color: #222222;
+  --footer-background-color: #191919;
+  --secondary-text-color: #C5C5C5;
+  --card-color: #2A2A2A;
+  --white-color:#FFFFFF;
+  --orange-primary: #FF845E;
+  --blue-color:#5BADFF;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.header {
+  min-height: 1000px;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/newbackground1.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.header2 {
+  min-height: 1000px;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.header3 {
+  min-height: 1000px;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/newbackground2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.header4 {
+  min-height: 1000px;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+}
