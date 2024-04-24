@@ -8,9 +8,9 @@ body {
   --footer-background-color: #191919;
   --secondary-text-color: #C5C5C5;
   --card-color: #2A2A2A;
-  --white-color:#FFFFFF;
+  --white-color: #FFFFFF;
   --orange-primary: #FF845E;
-  --blue-color:#5BADFF;
+  --blue-color: #5BADFF;
 }
 
 .navbar {
@@ -47,9 +47,9 @@ body {
   background-size: cover;
 }
 
-.footer2 {
-  display: grid;
-  align-items: center;
+.footer2 a,
+.footer2 p {
+  color: black !important;
 }
 
 @media (max-width: 992px) {
